@@ -1,0 +1,5 @@
+1. HTTP/1.1 : It is developed as a communication standard for the World Wide Web.
+HTTP/2 : It began as the SPDY protocol ,developed with intention of reducing web page load latency by using techniques such as compression,multiplexing and prioritization.
+
+2. HTTP/1.1 : It keeps all requests and responses in plain text format.
+HTTP/2 : It uses the binary framing layer to encapsulate all messages in binary format.

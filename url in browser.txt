@@ -1,0 +1,21 @@
+Steps that happens when url is typed in address bar of browser:
+
+1.  Browser checks cache for DNS entry to find the corresponding IP address of website. It looks for following cache. If not found in one, then continues checking to the next until found.
+Browser Cache
+Operating Systems Cache
+Router Cache
+ISP Cache
+
+2. If not found in cache, ISP’s (Internet Service Provider) DNS server initiates a DNS query to find IP address of server that hosts the domain name. The requests are sent using small data packets that contain information content of request and IP address it is destined for.
+
+3. Browser initiates a TCP (Transfer Control Protocol) connection with the server using synchronize(SYN) and acknowledge(ACK) messages.
+
+4. Browser sends an HTTP request to the web server. GET or POST request
+
+5. Server on the host computer handles that request and sends back a response. It assembles a response in some format like JSON, XML and HTML.
+
+6. Server sends out an HTTP response along with the status of response.
+
+7. Browser displays HTML content
+
+8. Finally, Done.
